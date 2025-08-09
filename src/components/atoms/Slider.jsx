@@ -10,36 +10,53 @@ const Slider = forwardRef(({
   step = 1,
   ...props 
 }, ref) => {
+  const progress = ((value - min) / (max - min)) * 100;
+  
   return (
-    <div className="relative w-full">
+    <div className={cn("relative w-full", className)}>
       <input
+        ref={ref}
         type="range"
         min={min}
         max={max}
         value={value}
+        onChange={onChange}
         step={step}
-        onChange={(e) => onChange && onChange(Number(e.target.value))}
-        className={cn(
-          "w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer",
-          "focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2",
-          "[&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-5 [&::-webkit-slider-thumb]:h-5",
-          "[&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-primary-500",
-          "[&::-webkit-slider-thumb]:cursor-pointer [&::-webkit-slider-thumb]:shadow-md",
-          "[&::-webkit-slider-thumb]:hover:bg-primary-600 [&::-webkit-slider-thumb]:transition-colors",
-          "[&::-moz-range-thumb]:w-5 [&::-moz-range-thumb]:h-5 [&::-moz-range-thumb]:rounded-full",
-          "[&::-moz-range-thumb]:bg-primary-500 [&::-moz-range-thumb]:cursor-pointer",
-          "[&::-moz-range-thumb]:border-none [&::-moz-range-thumb]:shadow-md",
-          className
-        )}
-        ref={ref}
+        className="
+          w-full h-2 rounded-lg appearance-none cursor-pointer
+          focus:outline-none focus:ring-2 focus:ring-primary-300 focus:ring-opacity-50
+        "
+        style={{
+          background: `linear-gradient(to right, #ff6b35 0%, #ff6b35 ${progress}%, #e5e7eb ${progress}%, #e5e7eb 100%)`,
+          '--progress': `${progress}%`
+        }}
         {...props}
       />
-      <style jsx>{`
-        input[type="range"]::-webkit-slider-track {
-          background: linear-gradient(to right, #ff6b35 0%, #ff6b35 ${((value - min) / (max - min)) * 100}%, #e5e7eb ${((value - min) / (max - min)) * 100}%, #e5e7eb 100%);
+      <div className="flex justify-between text-xs text-gray-500 mt-1">
+        <span>{min}</span>
+        <span>{max}</span>
+      </div>
+      
+      <style>{`
+        input[type="range"]::-webkit-slider-thumb {
+          appearance: none;
+          height: 20px;
+          width: 20px;
+          border-radius: 50%;
+          background: #ff6b35;
+          cursor: pointer;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+          border: 2px solid white;
         }
-        input[type="range"]::-moz-range-track {
-          background: linear-gradient(to right, #ff6b35 0%, #ff6b35 ${((value - min) / (max - min)) * 100}%, #e5e7eb ${((value - min) / (max - min)) * 100}%, #e5e7eb 100%);
+        
+        input[type="range"]::-moz-range-thumb {
+          height: 20px;
+          width: 20px;
+          border-radius: 50%;
+          background: #ff6b35;
+          cursor: pointer;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+          border: 2px solid white;
         }
       `}</style>
     </div>
