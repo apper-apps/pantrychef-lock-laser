@@ -1,0 +1,312 @@
+[
+  {
+    "Id": 1,
+    "title": "Creamy Garlic Chicken Pasta",
+    "imageUrl": "https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?w=500&h=300&fit=crop",
+    "cookTime": 25,
+    "prepTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "dietary": ["Gluten-Free", "High-Protein"],
+    "ingredients": [
+      {"name": "chicken breast", "amount": "2", "unit": "lbs", "isAvailable": true},
+      {"name": "pasta", "amount": "12", "unit": "oz", "isAvailable": true},
+      {"name": "garlic", "amount": "4", "unit": "cloves", "isAvailable": true},
+      {"name": "cream", "amount": "1", "unit": "cup", "isAvailable": false},
+      {"name": "parmesan cheese", "amount": "1/2", "unit": "cup", "isAvailable": true},
+      {"name": "olive oil", "amount": "2", "unit": "tbsp", "isAvailable": true},
+      {"name": "salt", "amount": "1", "unit": "tsp", "isAvailable": true},
+      {"name": "black pepper", "amount": "1/2", "unit": "tsp", "isAvailable": true}
+    ],
+    "instructions": [
+      "Cook pasta according to package directions. Drain and set aside.",
+      "Season chicken breasts with salt and pepper. Heat olive oil in a large skillet over medium-high heat.",
+      "Cook chicken for 6-8 minutes per side until golden brown and cooked through. Remove and slice.",
+      "In the same pan, add minced garlic and cook for 1 minute until fragrant.",
+      "Pour in cream and bring to a gentle simmer. Cook for 2-3 minutes until slightly thickened.",
+      "Add cooked pasta and sliced chicken back to the pan. Toss to combine.",
+      "Sprinkle with parmesan cheese and season with salt and pepper to taste.",
+      "Serve immediately while hot and creamy."
+    ],
+    "matchPercentage": 87
+  },
+  {
+    "Id": 2,
+    "title": "Mediterranean Quinoa Bowl",
+    "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=500&h=300&fit=crop",
+    "cookTime": 20,
+    "prepTime": 15,
+    "servings": 2,
+    "difficulty": "Easy",
+    "dietary": ["Vegetarian", "Vegan", "Gluten-Free", "Mediterranean"],
+    "ingredients": [
+      {"name": "quinoa", "amount": "1", "unit": "cup", "isAvailable": true},
+      {"name": "cucumber", "amount": "1", "unit": "medium", "isAvailable": true},
+      {"name": "tomatoes", "amount": "2", "unit": "medium", "isAvailable": true},
+      {"name": "red onion", "amount": "1/4", "unit": "cup", "isAvailable": false},
+      {"name": "olives", "amount": "1/4", "unit": "cup", "isAvailable": false},
+      {"name": "feta cheese", "amount": "1/3", "unit": "cup", "isAvailable": false},
+      {"name": "olive oil", "amount": "3", "unit": "tbsp", "isAvailable": true},
+      {"name": "lemon juice", "amount": "2", "unit": "tbsp", "isAvailable": true}
+    ],
+    "instructions": [
+      "Rinse quinoa under cold water. Combine with 2 cups water in a saucepan and bring to a boil.",
+      "Reduce heat to low, cover, and simmer for 15 minutes until water is absorbed.",
+      "Remove from heat and let stand 5 minutes. Fluff with a fork and let cool.",
+      "Meanwhile, dice cucumber and tomatoes. Thinly slice red onion.",
+      "Whisk together olive oil, lemon juice, salt, and pepper for dressing.",
+      "Combine cooled quinoa with vegetables in a large bowl.",
+      "Add olives and crumbled feta cheese if using.",
+      "Drizzle with dressing and toss gently. Serve at room temperature."
+    ],
+    "matchPercentage": 65
+  },
+  {
+    "Id": 3,
+    "title": "Honey Glazed Salmon with Vegetables",
+    "imageUrl": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=500&h=300&fit=crop",
+    "cookTime": 20,
+    "prepTime": 10,
+    "servings": 4,
+    "difficulty": "Medium", 
+    "dietary": ["High-Protein", "Low-Carb", "Gluten-Free"],
+    "ingredients": [
+      {"name": "salmon", "amount": "4", "unit": "fillets", "isAvailable": true},
+      {"name": "honey", "amount": "3", "unit": "tbsp", "isAvailable": true},
+      {"name": "soy sauce", "amount": "2", "unit": "tbsp", "isAvailable": true},
+      {"name": "garlic", "amount": "3", "unit": "cloves", "isAvailable": true},
+      {"name": "broccoli", "amount": "2", "unit": "cups", "isAvailable": true},
+      {"name": "bell peppers", "amount": "1", "unit": "large", "isAvailable": false},
+      {"name": "ginger", "amount": "1", "unit": "tsp", "isAvailable": false},
+      {"name": "olive oil", "amount": "2", "unit": "tbsp", "isAvailable": true}
+    ],
+    "instructions": [
+      "Preheat oven to 425°F (220°C). Line a baking sheet with parchment paper.",
+      "In a small bowl, whisk together honey, soy sauce, minced garlic, and ginger.",
+      "Place salmon fillets on prepared baking sheet. Brush with half the honey mixture.",
+      "Cut broccoli into florets and bell pepper into strips. Toss with olive oil.",
+      "Arrange vegetables around salmon on the baking sheet.",
+      "Bake for 12-15 minutes until salmon flakes easily and vegetables are tender.",
+      "Brush salmon with remaining honey glaze before serving.",
+      "Serve immediately with your favorite grain or rice."
+    ],
+    "matchPercentage": 78
+  },
+  {
+    "Id": 4,
+    "title": "Vegetarian Chickpea Curry",
+    "imageUrl": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=500&h=300&fit=crop",
+    "cookTime": 30,
+    "prepTime": 15,
+    "servings": 6,
+    "difficulty": "Easy",
+    "dietary": ["Vegetarian", "Vegan", "Gluten-Free", "Low-Fat"],
+    "ingredients": [
+      {"name": "chickpeas", "amount": "2", "unit": "cans", "isAvailable": true},
+      {"name": "onions", "amount": "1", "unit": "large", "isAvailable": true},
+      {"name": "garlic", "amount": "4", "unit": "cloves", "isAvailable": true},
+      {"name": "ginger", "amount": "1", "unit": "tbsp", "isAvailable": false},
+      {"name": "canned tomatoes", "amount": "1", "unit": "can", "isAvailable": true},
+      {"name": "coconut milk", "amount": "1", "unit": "can", "isAvailable": false},
+      {"name": "curry powder", "amount": "2", "unit": "tbsp", "isAvailable": false},
+      {"name": "cumin", "amount": "1", "unit": "tsp", "isAvailable": true}
+    ],
+    "instructions": [
+      "Heat oil in a large pot over medium heat. Add diced onion and cook until softened.",
+      "Add minced garlic and ginger. Cook for another minute until fragrant.",
+      "Stir in curry powder and cumin. Cook for 30 seconds until aromatic.",
+      "Add crushed tomatoes and cook for 5 minutes, stirring occasionally.",
+      "Drain and rinse chickpeas, then add to the pot along with coconut milk.",
+      "Bring to a simmer and cook for 15-20 minutes until sauce thickens.",
+      "Season with salt and pepper to taste. Adjust spices as needed.",
+      "Serve over rice or with naan bread. Garnish with fresh cilantro."
+    ],
+    "matchPercentage": 72
+  },
+  {
+    "Id": 5,
+    "title": "Classic Beef Stir Fry",
+    "imageUrl": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=500&h=300&fit=crop",
+    "cookTime": 15,
+    "prepTime": 20,
+    "servings": 4,
+    "difficulty": "Medium",
+    "dietary": ["High-Protein", "Low-Carb"],
+    "ingredients": [
+      {"name": "ground beef", "amount": "1", "unit": "lb", "isAvailable": true},
+      {"name": "bell peppers", "amount": "2", "unit": "medium", "isAvailable": false},
+      {"name": "onions", "amount": "1", "unit": "medium", "isAvailable": true},
+      {"name": "garlic", "amount": "3", "unit": "cloves", "isAvailable": true},
+      {"name": "soy sauce", "amount": "3", "unit": "tbsp", "isAvailable": true},
+      {"name": "vegetable oil", "amount": "2", "unit": "tbsp", "isAvailable": true},
+      {"name": "ginger", "amount": "1", "unit": "tsp", "isAvailable": false},
+      {"name": "green onions", "amount": "2", "unit": "stalks", "isAvailable": false}
+    ],
+    "instructions": [
+      "Slice beef into thin strips against the grain. Season with salt and pepper.",
+      "Cut bell peppers and onions into thin strips. Mince garlic and ginger.",
+      "Heat oil in a large wok or skillet over high heat until smoking.",
+      "Add beef and cook for 2-3 minutes until browned. Remove and set aside.",
+      "Add vegetables to the pan and stir-fry for 3-4 minutes until tender-crisp.",
+      "Add garlic and ginger, cooking for another 30 seconds until fragrant.",
+      "Return beef to the pan and add soy sauce. Toss everything together.",
+      "Cook for another minute until heated through. Garnish with green onions."
+    ],
+    "matchPercentage": 69
+  },
+  {
+    "Id": 6,
+    "title": "Lemon Herb Roasted Chicken",
+    "imageUrl": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=500&h=300&fit=crop",
+    "cookTime": 60,
+    "prepTime": 15,
+    "servings": 6,
+    "difficulty": "Medium",
+    "dietary": ["High-Protein", "Gluten-Free", "Keto"],
+    "ingredients": [
+      {"name": "chicken breast", "amount": "3", "unit": "lbs", "isAvailable": true},
+      {"name": "lemons", "amount": "2", "unit": "large", "isAvailable": true},
+      {"name": "garlic", "amount": "6", "unit": "cloves", "isAvailable": true},
+      {"name": "rosemary", "amount": "2", "unit": "tbsp", "isAvailable": true},
+      {"name": "thyme", "amount": "2", "unit": "tbsp", "isAvailable": true},
+      {"name": "olive oil", "amount": "1/4", "unit": "cup", "isAvailable": true},
+      {"name": "potatoes", "amount": "2", "unit": "lbs", "isAvailable": false},
+      {"name": "carrots", "amount": "1", "unit": "lb", "isAvailable": false}
+    ],
+    "instructions": [
+      "Preheat oven to 425°F (220°C). Pat chicken dry and season inside and out with salt and pepper.",
+      "Stuff cavity with lemon halves, garlic cloves, and herb sprigs.",
+      "Rub skin with olive oil and sprinkle with chopped herbs, salt, and pepper.",
+      "Cut potatoes and carrots into chunks. Toss with oil, salt, and pepper.",
+      "Place chicken in roasting pan surrounded by vegetables.",
+      "Roast for 50-60 minutes until internal temperature reaches 165°F (74°C).",
+      "Let chicken rest for 10 minutes before carving.",
+      "Serve with the roasted vegetables and pan juices."
+    ],
+    "matchPercentage": 81
+  },
+  {
+    "Id": 7,
+    "title": "Mushroom Risotto",
+    "imageUrl": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=500&h=300&fit=crop",
+    "cookTime": 35,
+    "prepTime": 15,
+    "servings": 4,
+    "difficulty": "Hard",
+    "dietary": ["Vegetarian", "Gluten-Free"],
+    "ingredients": [
+      {"name": "arborio rice", "amount": "1.5", "unit": "cups", "isAvailable": false},
+      {"name": "mushrooms", "amount": "1", "unit": "lb", "isAvailable": true},
+      {"name": "onions", "amount": "1", "unit": "medium", "isAvailable": true},
+      {"name": "garlic", "amount": "3", "unit": "cloves", "isAvailable": true},
+      {"name": "vegetable stock", "amount": "6", "unit": "cups", "isAvailable": true},
+      {"name": "white wine", "amount": "1/2", "unit": "cup", "isAvailable": false},
+      {"name": "parmesan cheese", "amount": "1", "unit": "cup", "isAvailable": true},
+      {"name": "butter", "amount": "4", "unit": "tbsp", "isAvailable": true}
+    ],
+    "instructions": [
+      "Heat stock in a saucepan and keep warm over low heat.",
+      "Slice mushrooms and sauté in butter until golden. Set aside.",
+      "In the same pan, cook diced onion until translucent. Add garlic and cook 1 minute.",
+      "Add rice and stir to coat with oil. Cook for 2 minutes until edges are translucent.",
+      "Add wine and stir until absorbed. Begin adding warm stock one ladle at a time.",
+      "Stir constantly, adding more stock as each addition is absorbed (about 20-25 minutes).",
+      "Stir in cooked mushrooms and half the parmesan cheese.",
+      "Season with salt and pepper. Serve immediately with remaining cheese."
+    ],
+    "matchPercentage": 58
+  },
+  {
+    "Id": 8,
+    "title": "Thai Green Curry Vegetables",
+    "imageUrl": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=500&h=300&fit=crop",
+    "cookTime": 25,
+    "prepTime": 20,
+    "servings": 4,
+    "difficulty": "Medium",
+    "dietary": ["Vegetarian", "Vegan", "Gluten-Free", "Dairy-Free"],
+    "ingredients": [
+      {"name": "coconut milk", "amount": "2", "unit": "cans", "isAvailable": false},
+      {"name": "green curry paste", "amount": "3", "unit": "tbsp", "isAvailable": false},
+      {"name": "bell peppers", "amount": "2", "unit": "medium", "isAvailable": false},
+      {"name": "zucchini", "amount": "1", "unit": "large", "isAvailable": true},
+      {"name": "broccoli", "amount": "2", "unit": "cups", "isAvailable": true},
+      {"name": "mushrooms", "amount": "8", "unit": "oz", "isAvailable": true},
+      {"name": "garlic", "amount": "4", "unit": "cloves", "isAvailable": true},
+      {"name": "ginger", "amount": "1", "unit": "tbsp", "isAvailable": false}
+    ],
+    "instructions": [
+      "Heat 1/4 cup coconut cream in a large pan over medium heat.",
+      "Add green curry paste and cook for 2 minutes until fragrant.",
+      "Add remaining coconut milk and bring to a gentle simmer.",
+      "Add harder vegetables first (broccoli, bell peppers) and cook for 5 minutes.",
+      "Add softer vegetables (zucchini, mushrooms) and cook for another 5 minutes.",
+      "Stir in minced garlic and ginger. Cook for 1 minute more.",
+      "Season with salt and sugar to taste. Add lime juice if desired.",
+      "Serve over jasmine rice, garnished with fresh basil or cilantro."
+    ],
+    "matchPercentage": 55
+  },
+  {
+    "Id": 9,
+    "title": "Breakfast Egg Scramble",
+    "imageUrl": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=500&h=300&fit=crop",
+    "cookTime": 10,
+    "prepTime": 5,
+    "servings": 2,
+    "difficulty": "Easy",
+    "dietary": ["Vegetarian", "High-Protein", "Low-Carb", "Keto"],
+    "ingredients": [
+      {"name": "eggs", "amount": "6", "unit": "large", "isAvailable": true},
+      {"name": "butter", "amount": "2", "unit": "tbsp", "isAvailable": true},
+      {"name": "milk", "amount": "2", "unit": "tbsp", "isAvailable": true},
+      {"name": "cheese", "amount": "1/2", "unit": "cup", "isAvailable": true},
+      {"name": "bell peppers", "amount": "1/2", "unit": "cup", "isAvailable": false},
+      {"name": "onions", "amount": "1/4", "unit": "cup", "isAvailable": true},
+      {"name": "spinach", "amount": "1", "unit": "cup", "isAvailable": true},
+      {"name": "salt", "amount": "1/2", "unit": "tsp", "isAvailable": true}
+    ],
+    "instructions": [
+      "Beat eggs with milk, salt, and pepper in a bowl until well combined.",
+      "Heat butter in a non-stick pan over medium-low heat.",
+      "Add diced onions and bell peppers. Cook for 3-4 minutes until softened.",
+      "Add spinach and cook until wilted, about 1 minute.",
+      "Pour in beaten eggs and let them set for 30 seconds without stirring.",
+      "Using a spatula, gently push eggs from edges toward center, tilting pan.",
+      "Continue until eggs are almost set but still slightly runny on top.",
+      "Sprinkle with cheese and fold gently. Serve immediately while hot."
+    ],
+    "matchPercentage": 92
+  },
+  {
+    "Id": 10,
+    "title": "Sweet Potato and Black Bean Tacos",
+    "imageUrl": "https://images.unsplash.com/photo-1565299585323-38174c6a6c6c?w=500&h=300&fit=crop",
+    "cookTime": 25,
+    "prepTime": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "dietary": ["Vegetarian", "Vegan", "High-Fiber", "Dairy-Free"],
+    "ingredients": [
+      {"name": "sweet potatoes", "amount": "2", "unit": "large", "isAvailable": true},
+      {"name": "black beans", "amount": "1", "unit": "can", "isAvailable": false},
+      {"name": "corn tortillas", "amount": "8", "unit": "small", "isAvailable": false},
+      {"name": "avocado", "amount": "1", "unit": "large", "isAvailable": true},
+      {"name": "lime", "amount": "2", "unit": "medium", "isAvailable": false},
+      {"name": "cumin", "amount": "1", "unit": "tsp", "isAvailable": true},
+      {"name": "paprika", "amount": "1", "unit": "tsp", "isAvailable": true},
+      {"name": "olive oil", "amount": "2", "unit": "tbsp", "isAvailable": true}
+    ],
+    "instructions": [
+      "Preheat oven to 425°F (220°C). Peel and dice sweet potatoes into 1/2-inch cubes.",
+      "Toss sweet potatoes with olive oil, cumin, paprika, salt, and pepper.",
+      "Spread on a baking sheet and roast for 20-25 minutes until tender and lightly browned.",
+      "Meanwhile, drain and rinse black beans. Heat in a small pan until warmed through.",
+      "Warm tortillas in a dry pan or microwave until soft and pliable.",
+      "Mash avocado with lime juice, salt, and pepper to make guacamole.",
+      "Fill each tortilla with roasted sweet potatoes and black beans.",
+      "Top with guacamole, lime wedges, and any other desired toppings."
+    ],
+    "matchPercentage": 61
+  }
+]
