@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { cn } from "@/utils/cn";
 import Label from "@/components/atoms/Label";
-import ApperIcon from "@/components/atoms/ApperIcon";
+import ApperIcon from "@/components/ApperIcon";
 
 const FilterSection = ({ 
   title, 
